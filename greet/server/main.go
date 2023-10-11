@@ -12,7 +12,7 @@ type Server struct {
 	pb.GreetServiceServer
 }
 
-var addr string = "0.0.0.0:5051"
+var addr string = "0.0.0.0:50051"
 
 func main() {
 
