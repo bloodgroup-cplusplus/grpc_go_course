@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package greet;
+
+option go_package = "github.com/bloodgroup-cplusplus/grpc_go_course/greet/proto";
+// this is the import 
+// root/greet/proto 
+// format
+
+
+// message to test the protobuf generation 
+
+message Dummy {
+    uint32 id= 1;
+}
+
+service DummyService {
+
+}
